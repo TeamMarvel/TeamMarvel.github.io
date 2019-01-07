@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -24,60 +24,65 @@
   </head>
 
   <body>
-
-    <div class="overlay"></div>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-      <source src="mp4/bg.mp4" type="video/mp4">
-    </video>
-
-    <div class="masthead">
-      <div class="masthead-bg"></div>
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-12 my-auto">
-            <div class="masthead-content text-white py-5 py-md-0">
-              <h1 class="mb-3">Coming Soon!</h1>
-              <p class="mb-5">We're working hard to finish the development of this site. Our target launch date is
-                <strong>January 2019</strong>! Sign up for updates using the form below!</p>
-              <div class="input-group input-group-newsletter">
-                <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon">
-                <div class="input-group-append">
-                  <button class="btn btn-secondary" type="button">Notify Me!</button>
-                </div>
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="mp4/bg.mp4" type="video/mp4">
+      </video>
+      <div class="masthead">
+          <div class="masthead-bg"></div>
+          <div class="container h-100">
+              <div class="row h-100">
+                  <div class="col-12 my-auto">
+                      <div class="masthead-content text-white py-5 py-md-0">
+                          <h1 class="mb-3">마블페이지 커밍 쓘!</h1>
+                          <p class="mb-5">뭘 만들지 고민 중이니 아이디어좀 주세염!</p>
+                          <div class="input-group input-group-newsletter">
+                              <input type="text" id="text1" class="form-control" placeholder="의견입력 후 확인버튼 클릭" aria-label="의견입력 후 확인버튼 클릭" aria-describedby="basic-addon">
+                              <div class="input-group-append">
+                                  <button class="btn btn-secondary" type="button" id="btn1" onclick="clickBtn()">확인</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
       </div>
-    </div>
+      <div class="social-icons">
+          <ul class="list-unstyled text-center mb-0">
+              <li class="list-unstyled-item">
+                  <a href="#">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+              </li>
+              <li class="list-unstyled-item">
+                  <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                  </a>
+              </li>
+              <li class="list-unstyled-item">
+                  <a href="#">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+              </li>
+          </ul>
+      </div>
 
-    <div class="social-icons">
-      <ul class="list-unstyled text-center mb-0">
-        <li class="list-unstyled-item">
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li class="list-unstyled-item">
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </li>
-        <li class="list-unstyled-item">
-          <a href="#">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
+      <script>
+          function clickBtn() {
+              swal("응 아직 구현 안했어", "응 아직 구현 안했어", "error");
+          }
+      </script>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/coming-soon.min.js"></script>
 
+
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- Custom scripts for this template -->
+      <script src="js/coming-soon.min.js"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </body>
 
 </html>
