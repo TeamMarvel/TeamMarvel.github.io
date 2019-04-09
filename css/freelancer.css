@@ -24,7 +24,7 @@ hr.star-dark {
   padding: 0;
   text-align: center;
   border: none;
-  border-top: solid 0.25rem;
+  border-top: solid 2.5rem;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   margin-left: auto;
@@ -33,14 +33,14 @@ hr.star-dark {
 
 hr.star-light:after,
 hr.star-dark:after {
-  /*position: relative;
+  position: relative;
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
   content: '\f251';
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  font-size: 2em;*/
+  font-size: 2em;
 }
 
 hr.star-light {
